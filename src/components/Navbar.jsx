@@ -7,7 +7,7 @@ export default function Navbar() {
       : 'text-white hover:text-[#646cff] transition-colors';
 
   return (
-    <nav className="fixed top-0 left-0 w-full bg-[#1a1a1a] z-50 shadow-md">
+    <nav className="sticky top-0 bg-[#1a1a1a] text-white shadow-md z-50">
       <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
         <h1 className="text-2xl font-bold text-white">Moe</h1>
         <div className="space-x-6 text-sm sm:text-base">
