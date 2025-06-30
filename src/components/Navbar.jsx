@@ -35,8 +35,8 @@ export default function Navbar() {
 
         {/* Desktop nav */}
         <div className="hidden md:flex space-x-6 text-sm font-medium">
-          {['/', '/about', '/projects', '/camping', '/contact'].map((path, i) => {
-            const labels = ['Home', 'About', 'Projects', 'Camping', 'Contact'];
+          {['/', '/about', '/projects', '/places', '/contact'].map((path, i) => {
+            const labels = ['Home', 'About', 'Projects', 'Places', 'Contact'];
             return (
               <NavLink
                 key={path}
@@ -58,7 +58,7 @@ export default function Navbar() {
           <NavLink to="/" onClick={() => setIsOpen(false)} className="block hover:text-[#646cff]">Home</NavLink>
           <NavLink to="/about" onClick={() => setIsOpen(false)} className="block hover:text-[#646cff]">About</NavLink>
           <NavLink to="/projects" onClick={() => setIsOpen(false)} className="block hover:text-[#646cff]">Projects</NavLink>
-          <NavLink to="/camping" onClick={() => setIsOpen(false)} className="block hover:text-[#646cff]">Camping</NavLink>
+          <NavLink to="/places" onClick={() => setIsOpen(false)} className="block hover:text-[#646cff]">PlacesIveBeen</NavLink>
           <NavLink to="/contact" onClick={() => setIsOpen(false)} className="block hover:text-[#646cff]">Contact</NavLink>
         </div>
       )}
