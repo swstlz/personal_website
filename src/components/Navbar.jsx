@@ -59,6 +59,7 @@ export default function Navbar() {
           <NavLink to="/about" onClick={() => setIsOpen(false)} className="block hover:text-[#646cff]">About</NavLink>
           <NavLink to="/projects" onClick={() => setIsOpen(false)} className="block hover:text-[#646cff]">Projects</NavLink>
           <NavLink to="/places" onClick={() => setIsOpen(false)} className="block hover:text-[#646cff]">PlacesIveBeen</NavLink>
+          <NavLink to="/books" onClick={() => setIsOpen(false)} className="block hover:text-[#646cff]">Books</NavLink>
           <NavLink to="/contact" onClick={() => setIsOpen(false)} className="block hover:text-[#646cff]">Contact</NavLink>
         </div>
       )}
