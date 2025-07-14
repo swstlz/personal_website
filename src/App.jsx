@@ -5,6 +5,8 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import PlacesIveBeen from './pages/PlacesIveBeen';
+import Books from './pages/Books'; 
+
 
 import './index.css';
 
