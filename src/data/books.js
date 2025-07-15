@@ -3,7 +3,7 @@ const books = [
       id: 1,
       title: "Lonesome Dove",
       author: "Larry McMurtry",
-      cover: "/covers/lonesome-dove.jpg",
+      cover: `${import.meta.env.BASE_URL}covers/lonesome-dove.jpg`, // ✅ dynamic base path
       status: "read",
       review: "One of my all-time favorites. Epic, raw, and deeply human.",
     },
